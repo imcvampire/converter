@@ -1,0 +1,6 @@
+CommitMsg:
+  CapitalizedSubject:
+    enabled: false
+PreCommit:
+  AuthorName:
+    enabled: false
