@@ -1,3 +1,5 @@
+// +build converter
+
 package testdata
 
 type A struct {
@@ -6,4 +8,10 @@ type A struct {
 
 type B struct {
 	Ints []int
+}
+
+func ConvertAToB(a *A) *B {
+	converter.Build(new(*A), new(*B))
+
+	return &B{}
 }
