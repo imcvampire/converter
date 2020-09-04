@@ -17,7 +17,7 @@ func TestConverter(t *testing.T) {
 	}{
 		{
 			name:        "Successfully gen with simple struct",
-			testdataDir: "simple_struct",
+			testdataDir: "simple",
 		},
 	}
 
