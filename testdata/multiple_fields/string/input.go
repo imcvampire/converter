@@ -2,13 +2,7 @@
 
 package testdata
 
-type A struct {
-	String1, String2 string
-}
-
-type B struct {
-	String1, String2 string
-}
+import "github.com/imcvampire/converter"
 
 func ConvertAToB(a *A) *B {
 	converter.Build(new(*A), new(*B))
